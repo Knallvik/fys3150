@@ -8,3 +8,26 @@ cd $HOME/compphys_examples && rm -r navigatecd $HOME/compphys_examples && rm -r 
 git config --global user.name your_user_name_spelled_out
 git config --global user.email you@yourdomain.com
 git config --global user.name your_user_name_spelled_out
+git config --global user.name Knallvik
+git config --global user.email dkalvik@gmail.com
+git clone https://github.com/Knallvik/fys3150.git
+echo "This is a line" > tmp.txt
+git config --global credential.helper store
+git add --all && git commit -m "added a dummy file to add token" && git push
+ls
+git init
+git add --all && git commit -m "added a dummy file to add token" && git push
+git rm --cached fys3150
+clear
+git add --all && git commit -m "added a dummy file to add token" && git push
+rm
+rm --help
+ls -lh
+git config --global credential.helper store
+git add --all && git commit -m "added a dummy file to add token" && git push
+ls
+rm tmp.txt
+echo "This is a line" > tmp.txt
+git config --global credential.helper store
+git add --all && git commit -m "added a dummy file to add token" && git push
+ls
